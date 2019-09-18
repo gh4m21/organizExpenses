@@ -1,0 +1,102 @@
+/*Style for container,body,rows,cols for differents views platforms*/
+
+html,
+body {
+    background-color: #028090;
+}
+
+.container-fluid {
+    background-color: #028090;
+}
+
+.link {
+    color: #009FB7 !important;
+}
+
+.red {
+    background-color: red;
+}
+
+.active {
+    border-bottom: 1px solid #009FB7 !important;
+}
+
+.title {
+    color: #FED766 !important;
+}
+
+.navbar-bg {
+    background-color: #114B5F !important;
+
+}
+
+.text-color {
+    color : #edeee7 !important;
+}
+
+.footer-line {
+    border-top: 1.5px solid #FED766;
+}
+
+.custom-mb {
+    margin-bottom: 7px;
+}
+
+/*Form styles : Login and Sign up */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+.login-container {
+    width: 100%;
+    height: 60vh;
+    padding: 10px;
+}
+
+.login-form, .register-form {
+    max-width: 100%;
+    width: 370px;
+    padding: 15px;
+    margin: auto;
+}
+
+.register-form {
+    display: none;
+}
+
+.login-form {
+    display: block;
+}
+
+.form-control {
+    font-size: 15px;
+    min-height: 48px;
+    font-weight: 500;
+    background-color : rgba(17, 76, 95, 0.5);
+    color : #ebece1;
+    border: 1px solid #028090;
+}
+
+.form-control:focus {
+    border-color: #114B5F;
+    box-shadow: 0 0 0 0.2rem rgba(17, 75, 95, 0.25);
+}
+
+.forgot-link {
+    font-size: 13px;
+}
+
+.btn-custom {
+    background-color: #115c56;
+    box-shadow: 0 0 0 0.2rem rgb(17, 92, 86,0.25);
+    color: #ebece1;
+    margin: auto;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active {
+    background-color: rgb(10, 85, 77);
+    color: #ebece1;
+    box-shadow: 0 0 0 0.2rem rgb(21, 100, 92, 0.25);
+}
