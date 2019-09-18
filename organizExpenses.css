@@ -1,0 +1,384 @@
+/*Color class styles*/
+.red {
+    color: #DC3B3B;
+}
+
+.bg-red {
+    background-color: #D81717;
+    border-color: 0.5px solid #740909;
+    text-align: center;
+}
+
+.bg-green {
+    background-color: #127D2F;
+    border-color: 0.5px solid #740909;
+    text-align: center;
+}
+
+/*Tables class styles*/
+
+table ,.table, tbody,th, scope>.row{
+    border: 0px;
+    margin-top: 40px;
+    width: 100%;
+    font-size: 14px;
+}
+
+
+.table-color1 {
+    background-color: #082431;
+    border: 0px;
+    text-align: center;
+}
+
+.table-color2 {
+    background-color: #091420;
+    border: 0px;
+    text-align: center;
+}
+
+/*Style for container,body,rows,cols for differents views platforms*/
+
+html,
+body {
+    background-color: #0F3B48;
+}
+
+.container {
+    background-color: #0F3B48;
+}
+
+.link {
+    color: #76D4E4;
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small-width{
+    width: 350px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.img-fluid {
+    background-color: #091420;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    border: 0;
+    border-radius: 100px;
+}
+
+.link-name {
+    color: #76D4E4;
+    padding: 5px;
+    text-align: center;
+}
+
+.border-left {
+    border-left: 0.01px solid;
+    border-color: #76D4E4;
+}
+
+.month-title{
+    font-family: 'AlphabetSoup Tilt BT';
+    background-color: rgba(225, 184, 23, .7);
+    font-size: 20px;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 100px;
+    border-color: #707070;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.date-time{
+    width: 300px;
+    height: 25px; 
+    margin-top: 12.5px;
+}
+
+.now-width{
+    min-width: 2%;
+    width: 5%;
+    font-size: 12.5px;
+    border-bottom-left-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 1.5px;
+    font-style: italic;
+}
+
+
+.date-width {
+    border-bottom-right-radius: 10px;
+    font-size: 15px;
+    
+    font-style: italic;
+    padding-top: 0px;
+    padding-bottom: 1.5px;
+    color: #D3D5B9;
+    border-color: 1px solid #7A682D;
+    background-color: #091420;
+}
+
+/*Border radius for single element*/
+
+.border-radius {
+    border: 0;
+    border-radius: 50px;
+}
+
+.bottom-left-radius {
+    border: 0;
+    border-bottom-left-radius: 50px;
+}
+
+.bottom-right-radius {
+    border: 0;
+    border-bottom-right-radius: 50px;
+}
+
+.top-left-radius {
+    border: 0;
+    border-top-left-radius: 50px;
+}
+
+.top-right-radius {
+    border: 0;
+    border-top-right-radius: 50px;
+}
+
+
+/*Footer styles */
+.footer-line {
+    border-top: 0.01px solid;
+    border-color: #FFFFFF;
+    padding-top: 5px;
+    margin-top: 0px;
+}
+
+.footer-text {
+    color: #D3D5B9;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+/*Nav styles : Navigation */
+.nav {
+    background-color: #091420;
+    
+}
+
+.nav-menu1{
+    margin-left: -5px;
+    margin-right: 0;
+    margin-top: -2px;
+    margin-bottom: 20px;
+}
+
+.nav-menu2{
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: -19px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.nav-brand {
+    font-family: 'Comic Sans MS';
+    background-color: #091420;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    margin-right: -35px;
+    color: #E1B817;
+    border: 1px;
+    border-color: #7A682D;
+}
+
+.nav-fill{
+    background-color: #091420;
+}
+
+.nav-link {
+    color: #76D4E4;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+.active {
+    background-color: #072634;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+
+.menu-home-noconnect {
+    background-color: #091420;
+    margin-left: -35px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 1px;
+    border-color: #707070;
+}
+
+.menu-home-connect {
+    background-color: #091420;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: auto;
+    border: 1px;
+    border-color: #707070;
+}
+
+
+
+/*Form styles : Login and Sign up */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+    width: 700px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #091420;
+    max-width: 700px;
+    border: 0;
+    border-radius: 15px;
+    margin: -15px auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #0A2C40;
+    width: 100%;
+    border: 0;
+    border-radius: 15px;
+    margin: 0 0 15px;
+    padding: 15px;
+    color: #D3D5B9;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.form input:focus {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #0A2C40;
+    width: 100%;
+    border: 0;
+    border-radius: 15px;
+    margin: 0 0 15px;
+    padding: 15px;
+    color: #D3D5B9;
+    text-align: left;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #126B39;
+    border: 1px;
+    border-color: #707070;
+}
+
+.form .message,
+.form .message-lostPassword {
+    margin: 15px 0 0;
+    color: #D3D5B9;
+    font-size: 12px;
+}
+
+.form .message a,
+.form .message-lostPassword a {
+    color: #76D4E4;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+
+}
+
+.form .login-form {
+    display: block;
+
+}
+
+.login-page {
+    position: relative;
+    z-index: 1;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-page:before,
+.login-page:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.login-page .info {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.login-page .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.login-page .info span {
+    color: #D3D5B9;
+    font-size: 12px;
+}
+
+.login-page .info span a {
+    color: #D3D5B9;
+    text-decoration: none;
+}
+
+.login-page .info span .fa {
+    color: #EF3B3A;
+}
