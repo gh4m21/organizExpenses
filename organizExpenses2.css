@@ -108,8 +108,23 @@ body {
     min-height: 38px;
 }
 
-.fas {
+.fa-search {
     font-size: 20px;
-    
-    color: #ccc;
+    color: #b9f022;
+}
+
+.custom-btn-search {
+    background-color: none !important;
+    float: right;
+    position: absolute;
+    margin-left: -55px;
+    margin-top: -5px;
+}
+
+.custom-btn-search:focus,
+.custom-btn-search:hover,
+.custom-btn-search:active,
+.custom-btn-search:target {
+    border: 1px solid #114B5F;
+    text-decoration: none;
 }
