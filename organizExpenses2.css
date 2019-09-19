@@ -42,6 +42,7 @@ body {
     margin-bottom: 7px;
 }
 
+
 /*Form styles : Login and Sign up */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
@@ -99,4 +100,16 @@ body {
     background-color: rgb(10, 85, 77);
     color: #ebece1;
     box-shadow: 0 0 0 0.2rem rgb(21, 100, 92, 0.25);
+}
+
+/*Search form in home-connected*/
+
+.search {
+    min-height: 38px;
+}
+
+.fas {
+    font-size: 20px;
+    
+    color: #ccc;
 }
