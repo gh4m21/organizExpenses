@@ -2,19 +2,20 @@
 
 html,
 body {
-    background-color: #028090;
+    background-color: #006773;
+    overflow-x: hidden;
 }
 
 .container-fluid {
-    background-color: #028090;
+    background-color: #006773;
 }
 
 .link {
     color: #009FB7 !important;
 }
 
-.red {
-    background-color: red;
+.component-bg {
+    background-color: #005A67;
 }
 
 .active {
@@ -30,8 +31,16 @@ body {
 
 }
 
+.nav-brand {
+    font-size: 1.4rem;
+}
+
 .text-color {
     color : #edeee7 !important;
+}
+
+.footer {
+    margin-top: 100px;
 }
 
 .footer-line {
@@ -52,13 +61,14 @@ body {
     width: 100%;
     height: 60vh;
     padding: 10px;
+    margin-top: 55px;
 }
 
 .login-form, .register-form {
     max-width: 100%;
     width: 370px;
     padding: 15px;
-    margin: auto;
+    margin-top: 200px;
 }
 
 .register-form {
@@ -97,7 +107,7 @@ body {
 .btn-custom:focus,
 .btn-custom:hover,
 .btn-custom:active {
-    background-color: rgb(10, 85, 77);
+    background-color: #0a554d;
     color: #ebece1;
     box-shadow: 0 0 0 0.2rem rgb(21, 100, 92, 0.25);
 }
@@ -127,4 +137,104 @@ body {
 .custom-btn-search:target {
     border: 1px solid #114B5F;
     text-decoration: none;
+}
+
+.custom-avatar {
+    width: 36px;
+    height: 36px;
+}
+
+/* Side navigation bar */
+
+.wrapper {
+    margin-top: 3.4rem;
+}
+
+.wrapper .sideMenu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 3.4rem auto auto;
+    width: 13rem;
+    transition: all ease 0.5s;
+    transform: translateX(-100%);
+    z-index: 2000;
+}
+
+ .show-side {
+     transform: translateX(0) !important;
+ }
+
+
+.wrapper .page-content {
+    width: 100%;
+    margin-left: 0rem;
+    transition: all ease 0.5s;
+}
+
+.wrapper.active .sideMenu {
+    transform: translateX(0);
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active {
+    background-color: rgba(0, 89, 103, 0.479);
+}
+
+.nav-link {
+    align-items: center;
+    display: block;
+    white-space: nowrap;
+    border-top: 1px solid rgba(0, 159, 183, 0.26);
+}
+
+.custom-border-bottom {
+    border-bottom: 1px solid rgba(0, 159, 183, 0.26);
+}
+
+.nav-link .fa {
+    margin-right: 0.25rem;
+    font-size: 1.875rem;
+    vertical-align: middle;
+    height:1.5rem;
+    width: 3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link .text {
+    font-size: 0.875rem;
+}
+
+@media (min-width: 768px){
+    .wrapper .sideMenu{
+        transform: translateX(0);
+    }
+
+    .wrapper .page-content{
+        margin-left: 12.5rem;
+    }
+
+    .wrapper.active .sideMenu {
+        width: 5rem;
+    }
+
+    .wrapper.active .sideMenu .nav-link {
+        text-align: center;
+    }
+
+    .wrapper.active .sideMenu .nav-link .fa {
+        margin-right: 0;
+    }
+
+    .wrapper.active .sideMenu .nav-link .text {
+        display: block;
+    }
+
+    .wrapper.active .page-content {
+        margin-left: 5rem;
+    }
 }
