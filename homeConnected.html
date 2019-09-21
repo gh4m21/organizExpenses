@@ -25,42 +25,124 @@
 
 <body>
 
-    <div class="container-fluid">
-        <!-- Header-->
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light navbar-bg">
-            <a href="#" class="nav-brand title"><strong>OrganizExpenses</strong></a>
-            <button class="navbar-toggler" data-toggle="collapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <form class="form-inline ml-auto d-none d-md-block">
-                <input type="search" class="form-control rounded-pill mr-2 search" placeholder="Search..."
-                    aria-label="Search">
-                <span class="input-group-button">
-                    <button class="btn btn-lg custom-btn-search">
-                        <span class="fa fa-search"></span>
-                    </button>
-                </span>
-            </form>
-        </nav>
+    <!-- Navigation bar aside menu -->
 
+    <!-- Page Content -->
 
+    <!-- Navigation bar 1 -->
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-light navbar-bg">
+        <button class="navbar-toggler sideMenuToggler" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="nav-brand title">
+            <strong>OrganizExpenses</strong>
+        </a>
+
+        <form class="form-inline ml-auto d-none d-md-block">
+            <input type="search" class="form-control rounded-pill mr-2 search" placeholder="Search..."
+                aria-label="Search">
+            <span class="input-group-button">
+                <button class="btn btn-lg custom-btn-search">
+                    <span class="fa fa-search"></span>
+                </button>
+            </span>
+        </form>
+        <a href="#">
+            <img class="rounded-pill mx-2 custom-avatar" src="https://picsum.photos/100" alt="Avatar">
+            <strong class="d-none d-md-inline">Yves Gervens</strong>
+        </a>
+    </nav>
+
+    <!-- Side bar menu -->
+
+    <div class="wrapper d-flex">
+        <div class="sideMenu  navbar-bg">
+            <div class="sidebar" id="toggler">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="fa fa-home"></span>
+                            <span class="text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="fa fa-usd"></span>
+                            <span class="text">Budget</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="fa fa-bar-chart"></span>
+                            <span class="text">Statistics</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="fa fa-th-list"></span>
+                            <span class="text">Planification</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link custom-border-bottom">
+                            <span class="fa fa-history"></span>
+                            <span class="text">History</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="page-content">
+            <main>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-4">
+                          <div class="component-bg my-2 p-2">
+                                bghcnfhh,vhv bvhjv v hvvvhhhh
+                                hvdsh hbs nbshb nsbjbs nvbshb
+                                bjbs njbsj nbsb jbsjb nmbsjbjs
+                                jsb mnsjb msbjjskb jbsjsbjks
+                                bghcnfhh,vhv bvhjv v hvvvhhhh
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="component-bg my-2 p-2">
+                                bghcnfhh,vhv bvhjv v hvvvhhhh
+                                hvdsh hbs nbshb nsbjbs nvbshb
+                                bjbs njbsj nbsb jbsjb nmbsjbjs
+                                jsb mnsjb msbjjskb jbsjsbjks
+                                bghcnfhh,vhv bvhjv v hvvvhhhh
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="component-bg my-2 p-2">
+                               bghcnfhh,vhv bvhjv v hvvvhhhh
+                               hvdsh hbs nbshb nsbjbs nvbshb
+                               bjbs njbsj nbsb jbsjb nmbsjbjs
+                               jsb mnsjb msbjjskb jbsjsbjks
+                               bghcnfhh,vhv bvhjv v hvvvhhhh
+                           </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
     </div>
+
+
     <!-- Bootstrap core JavaScript==================================================-->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="organizExpenses.js"></script>
-    <!--
-    <script src="config.json"></script>
-    -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
 
-    <script src="js/bootstrap.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <script src="organizExpenses.js"></script>
 </body>
 
 </html>
