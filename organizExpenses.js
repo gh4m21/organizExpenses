@@ -54,16 +54,4 @@ $(document).ready(function () {
         $(".sideMenu").toggleClass("show-side");
     });
 
-
-   /*  var adjustSideBar = function () {
-        $(".sidebar").slimScr(oll({
-            height: document.documentElement.clientHeight - $("navbar").outerHeight()
-        });
-    };
-
-    adjustSideBar();
-
-    $(window).resize(function () {
-        adjustSideBar();
-    }); */
 });
