@@ -11,11 +11,16 @@ body {
 }
 
 .link {
-    color: #009FB7 !important;
+    color: rgb(75, 228, 255) !important;
+}
+
+.test-bg {
+    background-color: #FED766 !important;
 }
 
 .component-bg {
     background-color: #005A67;
+    box-shadow: 0 0 0 0.2rem rgba(0, 89, 103, 0.185);
 }
 
 .active {
@@ -36,7 +41,11 @@ body {
 }
 
 .text-color {
-    color : #edeee7 !important;
+    color : rgba(237, 238, 231, 0.69) !important;
+}
+
+.text-title{
+    color : rgba(237, 238, 231, 0.856) !important;
 }
 
 .footer {
@@ -49,6 +58,20 @@ body {
 
 .custom-mb {
     margin-bottom: 7px;
+}
+
+.fas {
+    font-size: 4rem;
+}
+
+.card-body {
+    padding: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
 }
 
 
